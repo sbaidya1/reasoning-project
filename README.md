@@ -61,4 +61,8 @@ python -m scripts.visualize
 
 ### Visualization
 
-- The BLEU bar chart (`results/bleu_visualization.png`) highlights that Teacher-CoT generally outperforms Direct and Self-CoT for fr-en across all models.
+The BLEU bar chart (`results/bleu_visualization.png`) highlights that Teacher-CoT generally outperforms Direct and Self-CoT for fr-en across all models.
+
+<img src="results/bleu_visualization.png" alt="BLEU Scores by Method Across Models and Language Pairs" width="600"/>
+
+
