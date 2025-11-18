@@ -1,0 +1,182 @@
+{
+  "student_Qwen_Qwen3-8B": {
+    "en-es": {
+      "Direct": {
+        "average_bleu": 0.0,
+        "num_sentences": 50
+      },
+      "Self-CoT": {
+        "average_bleu": 0,
+        "num_sentences": 0
+      },
+      "Teacher-CoT": {
+        "average_bleu": 0.0,
+        "num_sentences": 41
+      }
+    },
+    "es-en": {
+      "Direct": {
+        "average_bleu": 0.3371014261031847,
+        "num_sentences": 47
+      },
+      "Self-CoT": {
+        "average_bleu": 0,
+        "num_sentences": 0
+      },
+      "Teacher-CoT": {
+        "average_bleu": 0.3499685966886255,
+        "num_sentences": 45
+      }
+    },
+    "fr-en": {
+      "Direct": {
+        "average_bleu": 0.3230022781897201,
+        "num_sentences": 50
+      },
+      "Self-CoT": {
+        "average_bleu": 0.3013528407065773,
+        "num_sentences": 40
+      },
+      "Teacher-CoT": {
+        "average_bleu": 0.3241484603205233,
+        "num_sentences": 45
+      },
+      "Teacher-Synthesized-CoT": {
+        "average_bleu": 0.3421375358804897,
+        "num_sentences": 47
+      }
+    }
+  },
+  "student_deepseek-ai_DeepSeek-R1-Distill-Llama-8B": {
+    "en-es": {
+      "Direct": {
+        "average_bleu": 0.0006943450308933564,
+        "num_sentences": 46
+      },
+      "Self-CoT": {
+        "average_bleu": 0.0,
+        "num_sentences": 36
+      },
+      "Teacher-CoT": {
+        "average_bleu": 0.0,
+        "num_sentences": 25
+      }
+    },
+    "es-en": {
+      "Direct": {
+        "average_bleu": 0.26993913614615833,
+        "num_sentences": 49
+      },
+      "Self-CoT": {
+        "average_bleu": 0.29981502336015237,
+        "num_sentences": 38
+      },
+      "Teacher-CoT": {
+        "average_bleu": 0.39321522075340465,
+        "num_sentences": 32
+      }
+    },
+    "fr-en": {
+      "Direct": {
+        "average_bleu": 0.27191611710501035,
+        "num_sentences": 46
+      },
+      "Self-CoT": {
+        "average_bleu": 0.3199141270753838,
+        "num_sentences": 40
+      },
+      "Teacher-CoT": {
+        "average_bleu": 0.29289887142974896,
+        "num_sentences": 24
+      }
+    }
+  },
+  "student_deepseek-ai_DeepSeek-R1-Distill-Qwen-1.5B": {
+    "en-es": {
+      "Direct": {
+        "average_bleu": 0.008144755682181901,
+        "num_sentences": 29
+      },
+      "Self-CoT": {
+        "average_bleu": 0.0,
+        "num_sentences": 17
+      },
+      "Teacher-CoT": {
+        "average_bleu": 0.012819769604403902,
+        "num_sentences": 25
+      }
+    },
+    "es-en": {
+      "Direct": {
+        "average_bleu": 0.008237243503608464,
+        "num_sentences": 26
+      },
+      "Self-CoT": {
+        "average_bleu": 0.05170869815922779,
+        "num_sentences": 24
+      },
+      "Teacher-CoT": {
+        "average_bleu": 0.28045283953225,
+        "num_sentences": 23
+      }
+    },
+    "fr-en": {
+      "Direct": {
+        "average_bleu": 0.042396922458406226,
+        "num_sentences": 28
+      },
+      "Self-CoT": {
+        "average_bleu": 0.05240378117114151,
+        "num_sentences": 15
+      },
+      "Teacher-CoT": {
+        "average_bleu": 0.28627025696296643,
+        "num_sentences": 23
+      }
+    }
+  },
+  "student_deepseek-ai_DeepSeek-R1-Distill-Qwen-7B": {
+    "en-es": {
+      "Direct": {
+        "average_bleu": 0.00628126998918023,
+        "num_sentences": 44
+      },
+      "Self-CoT": {
+        "average_bleu": 0.03826093152347599,
+        "num_sentences": 21
+      },
+      "Teacher-CoT": {
+        "average_bleu": 0.0,
+        "num_sentences": 49
+      }
+    },
+    "es-en": {
+      "Direct": {
+        "average_bleu": 0.208769986396555,
+        "num_sentences": 40
+      },
+      "Self-CoT": {
+        "average_bleu": 0.2016145391932555,
+        "num_sentences": 21
+      },
+      "Teacher-CoT": {
+        "average_bleu": 0.3501646724143539,
+        "num_sentences": 49
+      }
+    },
+    "fr-en": {
+      "Direct": {
+        "average_bleu": 0.22776328574597962,
+        "num_sentences": 44
+      },
+      "Self-CoT": {
+        "average_bleu": 0.17201084051717783,
+        "num_sentences": 25
+      },
+      "Teacher-CoT": {
+        "average_bleu": 0.3436674630078291,
+        "num_sentences": 49
+      }
+    }
+  }
+}
