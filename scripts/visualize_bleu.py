@@ -72,10 +72,22 @@ def visualize(summary: dict, script_dir: Path):
             bleu_vals = [methods[m]["average_bleu"] for m in labels]
 
             x = np.arange(len(labels))
-            ax.bar(x, bleu_vals)
-
             ax.set_xticks(x)
-            ax.set_xticklabels(labels, rotation=25, fontsize=7)
+
+            # mark fields with no data
+            for i, m in enumerate(labels):
+                bleu_val = bleu_vals[i]
+                num_sentences = methods[m]["num_sentences"]
+
+                if num_sentences == 0:
+                    ax.plot(i, 0, marker='x', color='gray')
+                    labels[i] = f"{m}\n(No data)"  # update the label text
+                else:
+                    ax.bar(i, bleu_val, color="skyblue")
+            ax.set_xticklabels(labels, rotation=25, fontsize=7, color='black')
+            for i, m in enumerate(labels):
+                if "(No data)" in m:
+                    ax.get_xticklabels()[i].set_color("gray")
 
             if r == 0:
                 ax.set_title(lp, fontsize=10, weight="bold")
