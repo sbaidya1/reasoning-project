@@ -81,7 +81,7 @@ def visualize(summary: dict, script_dir: Path):
 
                 if num_sentences == 0:
                     ax.plot(i, 0, marker='x', color='gray')
-                    labels[i] = f"{m}\n(No data)"  # update the label text
+                    labels[i] = f"{m}\n(No data)" 
                 else:
                     ax.bar(i, bleu_val, color="skyblue")
             ax.set_xticklabels(labels, rotation=25, fontsize=7, color='black')
